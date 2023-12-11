@@ -1,0 +1,258 @@
+body {
+  font-family: sans-serif;
+}
+
+.navbar-toggler {
+  background-color: black;
+}
+::-webkit-scrollbar{
+  width: 15px;
+}
+::-webkit-scrollbar-track{
+  background: white;
+}
+::-webkit-scrollbar-thumb{
+  background: rgb(120, 120, 120);
+  border-radius: 20px;
+}
+header {
+  background-image: url(./img/man-with-glasses-works-laptop-dark.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 750px;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.bg-dark {
+  background: rgba(0, 0, 0, 0.70) !important;
+}
+
+#typewriter {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+#about {
+  background-color: #efefef;
+  padding: 60px;
+}
+
+h3 > span {
+  border-bottom: 3px solid rgb(80, 80, 255);
+  display: inline-block;
+}
+
+.paragraph {
+  margin-top: 30px;
+  font-size: 20px;
+  color: rgb(133, 130, 130);
+}
+.bck{ 
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+}
+#services {
+  background-color: #efefef;
+  padding: 60px;
+}
+.circle{
+  height: 130px;
+  width: 130px;
+  border: 1px solid;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 0px  10px#0078ff;
+  margin-top: 20px;
+  transition: 0.7s;
+}
+.circle:hover{
+  background-color: #0078ff;
+  color: #efefef;
+  box-shadow: 0px 0px 0px  10px #cde1f8;
+  transform: scale(1.05);
+}
+#counter{
+  background-color: #efefef;
+  background-image: url(./img/counters-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 60px;
+}
+.counter-bg{
+  background-color: #0078ff;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+}
+.circle-1{
+  height: 60px;
+  width: 60px;
+  border: 1px solid;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 0px  10px #cde1f8;
+  margin-bottom: 20px;
+}
+#portfolio{
+  background-color: #efefef;
+  padding: 60px;
+}
+.picc {
+  transition: .7s;
+}
+.picc:hover{
+  transform: scale(1.2);
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: " ";
+  width: 0px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all .5s;
+}
+.nav-link:hover::after {
+  width: 100%;
+}
+.dropdown-toggle::after {
+  border: 0 !important;
+}
+
+
+
+#carousel{
+  background-image: url(./img/overlay-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.counter-bg{
+  background-color: #0078ff;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+}
+
+
+#blog{
+    background-color: #efefef;
+    padding: 60px;
+}
+
+
+
+
+.card-blog .card-body {
+  position: relative;
+}
+
+.card-blog .card-category-box {
+  position: absolute;
+  text-align: center;
+  top: -16px;
+  left: 15px;
+  right: 15px;
+  line-height: 25px;
+  overflow: hidden;
+}
+
+.card-blog .card-category {
+  display: inline-block;
+  color: #fff;
+  /* padding: 15px 15px 5px; */
+  padding: 5px 10px;
+  overflow: hidden;
+  background-color: #0078ff;
+  border-radius: 4px;
+}
+
+.card-blog .card-category .category {
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.1px;
+  margin-bottom: 0;
+}
+
+.card-blog .card-title {
+  font-size: 1.3rem;
+  margin-top: 0.6rem;
+}
+
+.card-blog .card-description {
+  color: #4e4e4e;
+}
+
+.card-blog .post-author {
+  display: inline-block;
+}
+
+.card-blog .post-date {
+  color: #4e4e4e;
+  display: inline-block;
+}
+span:hover,
+.card-title:hover > a{
+color: #0078ff !important;
+}
+#contact{
+  background-image: url(./img/overlay-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 130px;
+}
+.counter-bg{
+  background-color: #0078ff;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+}
+#footerr{
+  background-color:#0078ff;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
